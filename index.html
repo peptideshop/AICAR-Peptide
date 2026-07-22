@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="google-site-verification" content="FzkMnIJnHy8_ebNwcXvIqwkLu8R2Hl-dgLV-E-dmmcU" />
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AICAR Peptide (50mg) | Research Use Only | APX Peptide Labs</title>
+<meta name="description" content="AICAR peptide, 99%+ purity, manufactured and tested in the USA. Batch-matched Certificate of Analysis. For laboratory research use only. Ships nationwide.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#141c26;
+    --paper:#f7f9fa;
+    --white:#ffffff;
+    --steel:#2f4a63;
+    --steel-deep:#1c2f42;
+    --grid-line:#d9e1e6;
+    --verify:#3c8a5c;
+    --verify-bg:#e9f5ee;
+    --amber:#b5842a;
+    --amber-bg:#fbf3e3;
+    --muted:#5c6b78;
+    --mono:'IBM Plex Mono', monospace;
+    --display:'Space Grotesk', sans-serif;
+    --body:'Inter', sans-serif;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth;}
+  body{font-family:var(--body); color:var(--ink); background:var(--paper); line-height:1.55; -webkit-font-smoothing:antialiased;}
+  a{color:inherit; text-decoration:none;}
+  img{max-width:100%; display:block;}
+  .wrap{max-width:1160px; margin:0 auto; padding:0 28px;}
+  @media (prefers-reduced-motion: reduce){*{animation-duration:.01ms !important; transition-duration:.01ms !important;}}
+
+  /* Announcement */
+  .announce{background:var(--steel-deep); color:#cfe0ec; font-family:var(--mono); font-size:12px; letter-spacing:.03em; padding:8px 0; overflow:hidden; white-space:nowrap;}
+  .announce .track{display:inline-flex; gap:48px; animation:scroll 30s linear infinite;}
+  @keyframes scroll{from{transform:translateX(0);} to{transform:translateX(-50%);}}
+
+  /* Header */
+  header{background:var(--white); border-bottom:1px solid var(--grid-line); position:sticky; top:0; z-index:50;}
+  .nav-row{display:flex; align-items:center; justify-content:space-between; padding:16px 0;}
+  .logo{font-family:var(--display); font-weight:700; font-size:19px; display:flex; align-items:center; gap:10px;}
+  .logo .mark{width:28px; height:28px; border:1.5px solid var(--ink); border-radius:50%; display:flex; align-items:center; justify-content:center; font-family:var(--mono); font-size:10px; font-weight:600;}
+  .breadcrumb{font-family:var(--mono); font-size:12px; color:var(--muted); display:flex; gap:8px; align-items:center;}
+  .breadcrumb a:hover{color:var(--steel);}
+  .btn{font-weight:600; font-size:13.5px; padding:10px 20px; border-radius:2px; display:inline-block; letter-spacing:.01em; text-align:center;}
+  .btn-primary{background:var(--ink); color:var(--white); border:1px solid var(--ink); transition:background .2s ease, transform .15s ease;}
+  .btn-primary:hover{background:var(--steel); transform:translateY(-1px);}
+  .btn-outline{border:1px solid var(--ink); color:var(--ink);}
+  .btn-lg{padding:15px 30px; font-size:15px;}
+
+  /* Hero */
+  .hero{padding:52px 0 70px; background:linear-gradient(var(--grid-line) 1px, transparent 1px), linear-gradient(90deg, var(--grid-line) 1px, transparent 1px); background-size:44px 44px;}
+  .hero .wrap{display:grid; grid-template-columns:.95fr 1.05fr; gap:56px; align-items:center;}
+  .eyebrow{font-family:var(--mono); font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--steel); display:flex; align-items:center; gap:8px; margin-bottom:16px;}
+  .eyebrow::before{content:''; width:7px; height:7px; background:var(--verify); border-radius:50%; display:inline-block;}
+  h1{font-family:var(--display); font-size:clamp(30px,3.6vw,44px); line-height:1.08; letter-spacing:-.02em; font-weight:700; margin-bottom:16px;}
+  h1 .accent{color:var(--steel);}
+  .hero .sub{font-size:16.5px; color:var(--muted); max-width:50ch; margin-bottom:22px;}
+  .badge-row{display:flex; gap:10px; flex-wrap:wrap; margin-bottom:26px;}
+  .pill{font-family:var(--mono); font-size:11.5px; font-weight:600; border:1px solid var(--grid-line); background:var(--white); padding:7px 12px; border-radius:20px; display:flex; align-items:center; gap:6px;}
+  .pill.verify{border-color:var(--verify); color:var(--verify); background:var(--verify-bg);}
+
+  .price-box{background:var(--white); border:1px solid var(--ink); padding:22px 24px; margin-bottom:22px; display:flex; align-items:center; justify-content:space-between; gap:20px; flex-wrap:wrap;}
+  .price-box .p-left .label{font-family:var(--mono); font-size:11px; color:var(--muted); text-transform:uppercase; letter-spacing:.05em; margin-bottom:4px;}
+  .price-box .p-left .amt{font-family:var(--display); font-size:30px; font-weight:700;}
+  .price-box .p-left .amt small{font-family:var(--body); font-size:13px; color:var(--muted); font-weight:500;}
+  .hero-actions{display:flex; gap:14px; flex-wrap:wrap; margin-bottom:18px;}
+  .hero-note{font-family:var(--mono); font-size:11.5px; color:var(--muted); border-left:2px solid var(--grid-line); padding-left:12px;}
+
+  /* Product image panel */
+  .product-panel{background:var(--white); border:1px solid var(--ink); box-shadow:8px 8px 0 var(--steel-deep); padding:18px;}
+  .product-panel img{width:100%; border:1px solid var(--grid-line);}
+  .product-panel .cap{display:flex; justify-content:space-between; margin-top:14px; font-family:var(--mono); font-size:11px; color:var(--muted);}
+
+  /* Trust strip */
+  .trust{background:var(--steel-deep); color:var(--white); padding:30px 0;}
+  .trust .wrap{display:grid; grid-template-columns:repeat(4,1fr); gap:20px;}
+  .trust-item{border-left:1px solid #ffffff2b; padding-left:16px;}
+  .trust-item .n{font-family:var(--mono); font-size:11.5px; color:#8fb0c7; letter-spacing:.05em; text-transform:uppercase; margin-bottom:5px;}
+  .trust-item .t{font-family:var(--display); font-weight:600; font-size:15.5px;}
+
+  section{padding:76px 0;}
+  .section-head{display:flex; justify-content:space-between; align-items:flex-end; gap:24px; margin-bottom:40px; flex-wrap:wrap;}
+  .section-head .tag{font-family:var(--mono); font-size:12px; color:var(--steel); text-transform:uppercase; letter-spacing:.08em; margin-bottom:8px; display:block;}
+  h2{font-family:var(--display); font-size:clamp(24px,2.6vw,32px); font-weight:700; letter-spacing:-.015em; max-width:28ch;}
+  .section-head p{color:var(--muted); max-width:40ch; font-size:14.5px;}
+
+  /* Research applications grid */
+  .research-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:20px;}
+  .research-card{background:var(--white); border:1px solid var(--grid-line); padding:26px;}
+  .research-card .idx{font-family:var(--mono); font-size:11px; color:var(--steel); margin-bottom:14px;}
+  .research-card h3{font-family:var(--display); font-size:16.5px; font-weight:600; margin-bottom:10px;}
+  .research-card p{font-size:13.8px; color:var(--muted);}
+
+  /* COA card */
+  .coa-section{background:var(--white); border-top:1px solid var(--grid-line); border-bottom:1px solid var(--grid-line);}
+  .coa-layout{display:grid; grid-template-columns:1fr .85fr; gap:56px; align-items:center;}
+  .spec-list{margin-top:20px;}
+  .spec-row{display:flex; justify-content:space-between; padding:13px 0; border-bottom:1px solid var(--grid-line); font-size:14px;}
+  .spec-row .k{color:var(--muted);}
+  .spec-row .v{font-family:var(--mono); font-weight:600;}
+
+  .coa-card{background:var(--paper); border:1px solid var(--ink); position:relative; padding:24px 24px 20px;}
+  .coa-top{display:flex; justify-content:space-between; align-items:flex-start; border-bottom:1px dashed var(--grid-line); padding-bottom:14px; margin-bottom:14px;}
+  .coa-top .label{font-family:var(--mono); font-size:11px; letter-spacing:.06em; color:var(--muted); text-transform:uppercase;}
+  .coa-top .value{font-family:var(--mono); font-size:13px; font-weight:600; margin-top:4px;}
+  .coa-stamp{font-family:var(--mono); font-size:11px; font-weight:600; color:var(--verify); background:var(--verify-bg); border:1px solid var(--verify); padding:5px 10px; border-radius:2px; transform:rotate(2deg);}
+  .coa-purity{margin-top:14px; display:flex; align-items:baseline; gap:10px;}
+  .coa-purity .num{font-family:var(--display); font-size:38px; font-weight:700; color:var(--steel-deep); line-height:1;}
+  .coa-purity .unit{font-family:var(--mono); font-size:13px; color:var(--muted);}
+  .coa-bar{height:6px; background:var(--grid-line); margin-top:10px; position:relative; overflow:hidden;}
+  .coa-bar span{position:absolute; inset:0; width:99%; background:linear-gradient(90deg, var(--steel), var(--verify));}
+
+  /* Process */
+  .process{display:grid; grid-template-columns:repeat(4,1fr); border-top:1px solid var(--grid-line); border-left:1px solid var(--grid-line);}
+  .process-step{border-right:1px solid var(--grid-line); border-bottom:1px solid var(--grid-line); padding:26px 22px 30px; background:var(--white);}
+  .process-step .idx{font-family:var(--mono); color:var(--steel); font-size:12px; margin-bottom:16px;}
+  .process-step h3{font-family:var(--display); font-size:16px; font-weight:600; margin-bottom:8px;}
+  .process-step p{font-size:13.5px; color:var(--muted);}
+
+  /* FAQ */
+  .faq{max-width:820px;}
+  .faq-item{border-bottom:1px solid var(--grid-line); padding:20px 0;}
+  .faq-item summary{font-family:var(--display); font-weight:600; font-size:15.5px; cursor:pointer; list-style:none; display:flex; justify-content:space-between; align-items:center;}
+  .faq-item summary::-webkit-details-marker{display:none;}
+  .faq-item summary::after{content:'+'; font-family:var(--mono); font-size:20px; color:var(--muted); flex-shrink:0; margin-left:16px;}
+  .faq-item[open] summary::after{content:'–';}
+  .faq-item p{margin-top:12px; font-size:14.5px; color:var(--muted); max-width:70ch;}
+
+  /* Compliance */
+  .compliance-box{background:var(--amber-bg); border:1px solid var(--amber); padding:32px; display:grid; grid-template-columns:.32fr 1fr; gap:28px; align-items:start;}
+  .compliance-box .badge{font-family:var(--mono); font-size:11.5px; font-weight:600; border:1px solid var(--amber); color:var(--amber); padding:7px 11px; display:inline-block;}
+  .compliance-box h3{font-family:var(--display); font-size:18px; margin-bottom:10px;}
+  .compliance-box p{color:#6b5a2f; font-size:14px; margin-bottom:8px;}
+
+  /* Sticky CTA bar */
+  .sticky-cta{position:fixed; bottom:0; left:0; right:0; background:var(--white); border-top:1px solid var(--grid-line); box-shadow:0 -4px 16px rgba(0,0,0,.06); padding:14px 0; z-index:60; transform:translateY(100%); transition:transform .3s ease;}
+  .sticky-cta.show{transform:translateY(0);}
+  .sticky-cta .wrap{display:flex; justify-content:space-between; align-items:center; gap:16px;}
+  .sticky-cta .info{font-family:var(--display); font-weight:600; font-size:14.5px;}
+  .sticky-cta .info span{display:block; font-family:var(--mono); font-weight:400; font-size:11.5px; color:var(--muted); margin-top:2px;}
+
+  footer{background:var(--steel-deep); color:#8fb0c7; padding:26px 0 90px; font-family:var(--mono); font-size:12px;}
+  footer .wrap{display:flex; justify-content:space-between; flex-wrap:wrap; gap:12px;}
+  footer a:hover{color:var(--white);}
+
+  @media (max-width:900px){
+    .hero .wrap{grid-template-columns:1fr;}
+    .trust .wrap{grid-template-columns:repeat(2,1fr); gap:22px 16px;}
+    .research-grid{grid-template-columns:1fr;}
+    .coa-layout{grid-template-columns:1fr;}
+    .process{grid-template-columns:repeat(2,1fr);}
+    .compliance-box{grid-template-columns:1fr;}
+  }
+</style>
+</head>
+<body>
+
+<div class="announce" aria-hidden="true">
+  <div class="track">
+    <span>RESEARCH USE ONLY — NOT FOR HUMAN CONSUMPTION</span>
+    <span>99%+ PURITY · THIRD-PARTY HPLC/MS TESTED</span>
+    <span>MANUFACTURED IN THE USA · SHIPS NATIONWIDE</span>
+    <span>BATCH-MATCHED CERTIFICATE OF ANALYSIS</span>
+    <span>RESEARCH USE ONLY — NOT FOR HUMAN CONSUMPTION</span>
+    <span>99%+ PURITY · THIRD-PARTY HPLC/MS TESTED</span>
+    <span>MANUFACTURED IN THE USA · SHIPS NATIONWIDE</span>
+    <span>BATCH-MATCHED CERTIFICATE OF ANALYSIS</span>
+  </div>
+</div>
+
+<header>
+  <div class="wrap nav-row">
+    <a class="logo" href="https://apxpeptidelabs.com"><span class="mark">AX</span>APX Peptide Labs</a>
+    <div class="breadcrumb">
+      <a href="https://apxpeptidelabs.com">Home</a><span>/</span>
+      <a href="https://apxpeptidelabs.com/shop/">Shop</a><span>/</span>
+      <span style="color:var(--ink);">AICAR Peptide</span>
+    </div>
+    <a class="btn btn-primary" href="https://apxpeptidelabs.com/product/aicar-peptide/">View Product Page</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <span class="eyebrow">Research Peptide · 50mg</span>
+        <h1>AICAR Peptide — <span class="accent">99%+ Purity, Verified by Batch</span></h1>
+        <p class="sub">AICAR (5-Aminoimidazole-4-carboxamide ribonucleotide) is an AMPK-activating compound widely used in laboratory metabolic research. Manufactured in the USA and independently tested for identity and purity on every lot.</p>
+
+        <div class="badge-row">
+          <span class="pill verify">✓ HPLC/MS Verified</span>
+          <span class="pill">🇺🇸 Made in USA</span>
+          <span class="pill">📄 COA Included</span>
+          <span class="pill">🧪 Research Use Only</span>
+        </div>
+
+        <div class="price-box">
+          <div class="p-left">
+            <div class="label">AICAR Peptide · 50mg Vial</div>
+            <div class="amt">$89.00 <small>per vial · bulk pricing available</small></div>
+          </div>
+          <a class="btn btn-primary btn-lg" href="https://apxpeptidelabs.com/product/aicar-peptide/">Buy AICAR Peptide →</a>
+        </div>
+
+        <div class="hero-actions">
+          <a class="btn btn-outline" href="#research">Research Applications</a>
+          <a class="btn btn-outline" href="#coa">View Sample COA</a>
+        </div>
+
+        <p class="hero-note">For laboratory research use only. Not a drug, food, cosmetic, or supplement. Not evaluated by the FDA. Not for human or veterinary use.</p>
+      </div>
+
+      <div class="product-panel">
+        <img src="https://apxpeptidelabs.com/wp-content/uploads/2026/07/AICAR-50mg-Peptide.jpg" alt="AICAR Peptide 50mg vial by APX Peptide Labs">
+        <div class="cap">
+          <span>AICAR · 50mg · Lyophilized</span>
+          <span>SKU: APX-AICAR-50</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="trust">
+    <div class="wrap">
+      <div class="trust-item"><div class="n">Purity</div><div class="t">99%+ on every batch</div></div>
+      <div class="trust-item"><div class="n">Testing</div><div class="t">Independent HPLC/MS</div></div>
+      <div class="trust-item"><div class="n">Origin</div><div class="t">Manufactured in the USA</div></div>
+      <div class="trust-item"><div class="n">Shipping</div><div class="t">Nationwide, discreet packaging</div></div>
+    </div>
+  </section>
+
+  <section id="research">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <span class="tag">AICAR Peptide Research Applications</span>
+          <h2>What laboratory research has explored with AICAR.</h2>
+        </div>
+        <p>AICAR is one of the most widely cited AMPK activators in published metabolic research literature.</p>
+      </div>
+      <div class="research-grid">
+        <div class="research-card">
+          <div class="idx">01 / AMPK Activation</div>
+          <h3>Mechanism of Action</h3>
+          <p>AICAR is metabolized intracellularly into ZMP, an AMP analog that activates AMP-activated protein kinase (AMPK) — a central regulator of cellular energy balance studied extensively in vitro and in animal models.</p>
+        </div>
+        <div class="research-card">
+          <div class="idx">02 / Metabolic Research</div>
+          <h3>Lipid & Glucose Pathway Studies</h3>
+          <p>Published research has used AICAR to investigate AMPK's downstream role in fatty acid oxidation and glucose uptake pathways in cultured cells and rodent models — foundational work in metabolic disease research.</p>
+        </div>
+        <div class="research-card">
+          <div class="idx">03 / Exercise Physiology Models</div>
+          <h3>"Exercise Mimetic" Literature</h3>
+          <p>AICAR has been studied as a tool compound for probing exercise-associated gene expression changes in skeletal muscle tissue, particularly in preclinical models exploring endurance-adaptation pathways.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="coa" class="coa-section">
+    <div class="wrap coa-layout">
+      <div>
+        <span class="eyebrow" style="margin-bottom:14px;">Sourcing & Testing</span>
+        <h2>Every vial is backed by a lot-matched Certificate of Analysis.</h2>
+        <p style="color:var(--muted); font-size:15px; margin-top:14px; max-width:48ch;">Before it ships, every AICAR batch is independently tested for identity and purity via HPLC and mass spectrometry. The COA for your specific lot number is available on request and published for reference.</p>
+        <div class="spec-list">
+          <div class="spec-row"><span class="k">Compound</span><span class="v">AICAR (Acadesine)</span></div>
+          <div class="spec-row"><span class="k">Vial size</span><span class="v">50mg, lyophilized</span></div>
+          <div class="spec-row"><span class="k">Purity</span><span class="v">≥99% (HPLC/MS verified)</span></div>
+          <div class="spec-row"><span class="k">Manufacturing origin</span><span class="v">United States</span></div>
+          <div class="spec-row"><span class="k">Storage</span><span class="v">-20°C, protect from light</span></div>
+        </div>
+      </div>
+      <div class="coa-card">
+        <div class="coa-top">
+          <div>
+            <div class="label">Certificate of Analysis</div>
+            <div class="value">Lot #APX-AICAR-2607</div>
+          </div>
+          <div class="coa-stamp">✓ VERIFIED</div>
+        </div>
+        <div class="spec-row"><span class="k">Method</span><span class="v">HPLC / MS</span></div>
+        <div class="spec-row"><span class="k">Identity</span><span class="v">Confirmed</span></div>
+        <div class="spec-row" style="border-bottom:none;"><span class="k">Facility</span><span class="v">USA · ISO 9001</span></div>
+        <div class="coa-purity">
+          <span class="num">99.4</span>
+          <span class="unit">% purity</span>
+        </div>
+        <div class="coa-bar"><span></span></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <span class="tag">How We Verify Every Batch</span>
+          <h2>From synthesis to your bench, fully documented.</h2>
+        </div>
+      </div>
+      <div class="process">
+        <div class="process-step"><div class="idx">01</div><h3>Sourced</h3><p>Raw materials handled through vetted domestic manufacturing partners.</p></div>
+        <div class="process-step"><div class="idx">02</div><h3>Synthesized</h3><p>Produced in a dedicated USA facility under ISO 9001 quality management.</p></div>
+        <div class="process-step"><div class="idx">03</div><h3>Tested</h3><p>Independently verified for purity and identity via HPLC and mass spectrometry.</p></div>
+        <div class="process-step"><div class="idx">04</div><h3>Documented</h3><p>A lot-matched Certificate of Analysis is available before your order ships.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section style="background:var(--white); border-top:1px solid var(--grid-line);">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <span class="tag">Frequently Asked Questions</span>
+          <h2>Common questions about AICAR peptide.</h2>
+        </div>
+      </div>
+      <div class="faq">
+        <details class="faq-item" open>
+          <summary>What is AICAR peptide used for in research?</summary>
+          <p>AICAR is used in laboratory settings as a tool compound to study AMPK activation and its downstream effects on cellular energy metabolism, commonly in cell culture and animal-model research. It is not intended for use outside a research setting.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What are the benefits of AICAR peptide?</summary>
+          <p>In published research, AICAR's primary studied property is its ability to activate AMPK, which researchers use to investigate metabolic and exercise-adaptation pathways in preclinical models. APX Peptide Labs does not make claims about benefits for human use, and this product is sold strictly for in-vitro and laboratory research, not for personal use of any kind.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Is AICAR peptide linked to weight loss?</summary>
+          <p>AICAR has been studied in animal and cell-based research for its role in AMPK-mediated lipid metabolism, which is why it appears in metabolic disease literature. This is preclinical research data, not evidence of an effect in humans, and APX Peptide Labs does not sell this product for weight management or any human use — it is Research Use Only.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Where can I buy AICAR peptide in the USA?</summary>
+          <p>APX Peptide Labs manufactures AICAR in the United States and ships nationwide to qualified research buyers. You can view current stock, pricing, and the batch Certificate of Analysis on the <a href="https://apxpeptidelabs.com/product/aicar-peptide/" style="color:var(--steel); text-decoration:underline;">AICAR product page</a>.</p>
+        </details>
+        <details class="faq-item">
+          <summary>How should AICAR be stored?</summary>
+          <p>Lyophilized AICAR should be stored at -20°C, protected from light and moisture, until reconstituted for laboratory use. Reconstituted solution should be used promptly or stored per standard cold-chain practices for research reagents.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="compliance-box">
+        <div><span class="badge">RESEARCH USE ONLY</span></div>
+        <div>
+          <h3>Intended strictly for in-vitro laboratory research.</h3>
+          <p>AICAR Peptide sold by APX Peptide Labs is supplied only to qualified research professionals and institutions for laboratory research. It is not a drug, food, cosmetic, or dietary supplement, and has not been evaluated by the FDA.</p>
+          <p>This product is not intended for human or animal use. Any such use is prohibited and may violate federal, state, or local law. By purchasing, the buyer confirms the product will be used solely for in-vitro research by a qualified professional.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div class="sticky-cta" id="stickyCta">
+  <div class="wrap">
+    <div class="info">AICAR Peptide — 50mg <span>99%+ purity · Research Use Only</span></div>
+    <a class="btn btn-primary" href="https://apxpeptidelabs.com/product/aicar-peptide/">Buy Now →</a>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 APX Peptide Labs, LLC. All rights reserved.</span>
+    <span>593 N Batavia St, Orange, CA 92868 · info@apxpeptidelabs.com</span>
+  </div>
+</footer>
+
+<script>
+  const stickyCta = document.getElementById('stickyCta');
+  const heroPriceBox = document.querySelector('.price-box');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if(!entry.isIntersecting){
+        stickyCta.classList.add('show');
+      } else {
+        stickyCta.classList.remove('show');
+      }
+    });
+  }, { threshold: 0 });
+  if(heroPriceBox){ observer.observe(heroPriceBox); }
+</script>
+
+</body>
+</html>
